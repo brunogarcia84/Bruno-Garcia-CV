@@ -47,8 +47,13 @@ li {
 
 #about,
 #name,
-#language {
+#language,
+#contact {
   padding: 15px;
+}
+
+#language p {
+  display: inline;
 }
 
 #education {

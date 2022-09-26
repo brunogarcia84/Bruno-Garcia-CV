@@ -1,0 +1,14 @@
+{
+  "name": "digital-cv",
+  "version": "1.0.0",
+  "description": "Bruno Garcia Digital CV",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.html"
+  },
+  "author": "Bruno Garcia",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

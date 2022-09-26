@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4d5152;
+  font-family: "Garamond";
+  font-size: 22px;
+  color: whitesmoke;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Garamond", sans-serif;
+}
+
+h2 {
+  border-bottom: 1px solid white;
+}
+
+p {
+  font-family: "Garamond", sans-serif;
+  font-size: 16px;
+}
+
+ul,
+li {
+  font-size: 16px;
+  list-style: none;
+}
+
+#left_column {
+  max-width: 400px;
+  height: auto;
+}
+
+#right_column {
+  max-width: 1000px;
+  height: auto;
+}
+
+#about,
+#name,
+#language {
+  padding: 15px;
+}
+
+#education {
+  padding: 25px;
+}

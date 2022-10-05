@@ -4,7 +4,7 @@
   "description": "Bruno Garcia Digital CV",
   "main": "index.js",
   "scripts": {
-    "start:dev": "nodemon function.js"
+    "start:dev": "nodemon index.html"
   },
   "author": "Bruno Garcia",
   "license": "ISC",

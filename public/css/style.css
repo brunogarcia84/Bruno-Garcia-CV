@@ -232,3 +232,62 @@ p {
 .blog__snippet > a:hover {
   color: var(--fg_secondary);
 }
+
+.contact > form {
+  margin: 0 auto;
+}
+
+.form__fieldset {
+  border: none;
+}
+
+.form__fieldset > label,
+input,
+textarea {
+  display: block;
+  width: 90%;
+  border: 1px solid (--fg_secondary);
+  background-color: var(--bg_primary);
+  color: var(--fg_primary);
+  padding: var(--size_xs);
+  margin: 0 auto;
+}
+
+.form__fieldset > textarea {
+  margin-top: var(--size_lg);
+}
+
+.form__fieldset__item {
+  color: var(--fg_primary);
+}
+
+.submit {
+  margin: var(--size_md);
+  border: none;
+  background-color: var(--bg_fg_highlight);
+  transition: ease-in-out 0.4s;
+}
+
+.submit:hover {
+  background-color: var(--fg_primary);
+  color: var(--bg_fg_highlight);
+  font-weight: var(--font_title--bold);
+}
+
+.contact__social__media__title {
+  font-size: var(--size_md);
+  text-align: center;
+  padding: var(--size_md);
+}
+
+.contact__social__media__flexBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--size_md);
+}
+
+footer {
+  padding: var(--size_lg);
+  text-align: center;
+}

@@ -1,9 +1,9 @@
 :root {
-  --bg_primary: #ffffff;
-  --bg_secondary: #b4b7ba;
-  --bg_secondary--dark: #212529;
-  --fg_primary: #f8f9fa;
-  --fg_secondary: #ffffff;
+  --bg_primary: #222629;
+  --bg_secondary: #474b4f;
+  --bg_fg_highlight: #86c232;
+  --fg_primary: #ffffff;
+  --fg_secondary: #6b6e70;
 
   --size_xs: 0.6rem;
   --size_sm: 0.8rem;

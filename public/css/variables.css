@@ -1,27 +1,18 @@
 :root {
-  --bg_primary: #222629;
-  --bg_secondary: #474b4f;
-  --bg_fg_highlight: #86c232;
-  --fg_primary: #ffffff;
-  --fg_secondary: #6b6e70;
+  --background: hsl(0, 0%, 26%);
+  --title_hover: hsl(0, 0%, 80%);
+  --text: hsl(0, 0%, 50%);
 
-  --size_xs: 0.6rem;
-  --size_sm: 0.8rem;
-  --size_md: 1rem;
-  --size_lg: 2rem;
-  --size_xl: 3rem;
-  --size_xxl: 4rem;
+  --size_xs: 1rem;
+  --size_sm: 2.5rem;
+  --size_md: 3rem;
+  --size_lg: 4rem;
+  --size_xl: 5rem;
 
-  --font_title: "Merriweather", serif;
-  --font_text: "Montserrat", sans-serif;
+  --font: "Roboto", sans-serif;
 
-  --font_title--light: 300;
-  --font_title--regular: 400;
-  --font_title--bold: 700;
-  --font_title--black: 900;
-
-  --font_text--extraLight: 200;
-  --font_text--regular: 400;
-  --font_text--semiBold: 600;
-  --font_text--bold: 700;
+  --light: 300;
+  --regular: 400;
+  --bold: 700;
+  --black: 900;
 }

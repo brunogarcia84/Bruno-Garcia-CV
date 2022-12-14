@@ -1,0 +1,31 @@
+.section_title {
+  margin-bottom: var(--size_sm);
+}
+
+#skills {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: calc(var(--size_xl) * 2);
+}
+
+#skills .block {
+  width: calc(var(--size_xl) * 10);
+  margin: 0 var(--size_sm);
+  padding: var(--size_sm);
+}
+
+#skills .article {
+  display: flex;
+  padding: var(--size_xs);
+}
+
+#skills .article_title {
+  padding: var(--size_sm) var(--size_lg);
+}
+
+#skills .article_illustration > img {
+  width: var(--size_xl);
+  height: var(--size_xl);
+  margin: 0 var(--size_sm);
+}

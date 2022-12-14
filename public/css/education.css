@@ -1,0 +1,16 @@
+#education {
+  margin-bottom: calc(var(--size_xl) * 2);
+}
+
+#education .article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--text);
+  border-bottom: 1px solid var(--text);
+  padding: var(--size_md) 0;
+}
+
+#education .block .article_title {
+  margin-bottom: var(--size_xs);
+}

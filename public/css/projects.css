@@ -1,0 +1,41 @@
+.section_title {
+  margin-bottom: var(--size_xs);
+}
+
+#projects {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: calc(var(--size_xl) * 2);
+}
+
+#projects .block {
+  width: calc(var(--size_xl) * 15);
+  margin: 0 var(--size_sm);
+  padding: var(--size_sm);
+}
+
+#projects .article_title,
+#projects .article_text {
+  text-align: center;
+}
+
+#projects .article_title {
+  padding: var(--size_md) 0;
+}
+
+#projects .article_text {
+  padding: var(--size_xs);
+  margin-bottom: var(--size_sm);
+}
+
+#projects .section_link {
+  border: 1px solid var(--text);
+  padding: var(--size_xs);
+  transition: ease-in-out 0.4s;
+}
+
+#projects .section_link:hover {
+  border-color: var(--title_hover);
+  color: var(--title_hover);
+}

@@ -1,9 +1,36 @@
 @import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
 @import url(./variables.css);
+@import url(./header.css);
+@import url(./biography.css);
+@import url(./projects.css);
+@import url(./skills.css);
+@import url(./hobbies.css);
+@import url(./education.css);
+@import url(./footer.css);
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: var(--font);
+  background-color: var(--background);
+}
+
+a,
+p,
+span {
+  color: var(--text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--title_hover);
 }
 
 a {
@@ -36,4 +63,9 @@ h5 {
 
 h6 {
   font-size: var(--size_xs);
+}
+
+.container {
+  width: calc(var(--size_xl) * 15);
+  margin: 0 auto;
 }

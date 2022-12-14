@@ -1,0 +1,41 @@
+.burger_menu {
+  display: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: var(--size_xs) 0;
+  margin-bottom: calc(var(--size_xl) * 2);
+  background-image: radial-gradient(
+    ellipse at center,
+    hsl(282, 19%, 17%),
+    hsl(257, 37%, 18%) 40%,
+    var(--background)
+  );
+}
+
+.nav_list {
+  display: flex;
+}
+
+.nav_list li {
+  padding: var(--size_md);
+}
+
+.nav_list li a {
+  transition: ease-in-out 0.4s;
+}
+
+.nav_list li a:hover {
+  color: var(--title_hover);
+}
+
+.cv {
+  transition: ease-in-out 0.4s;
+}
+
+.cv:hover {
+  color: var(--title_hover);
+}

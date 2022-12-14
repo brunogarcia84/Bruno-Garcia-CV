@@ -1,0 +1,36 @@
+.section_title {
+  margin-bottom: var(--size_md);
+}
+
+#hobbies {
+  margin-bottom: calc(var(--size_xl) * 2);
+}
+
+#hobbies .article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hobbies .article_text {
+  margin-bottom: var(--size_sm);
+}
+
+#hobbies .article_illustration > img {
+  width: var(--size_xl);
+  height: var(--size_xl);
+  display: block;
+  margin: var(--size_sm) auto;
+}
+
+#hobbies .section_link {
+  display: inline-block;
+  border: 1px solid var(--text);
+  padding: var(--size_xs);
+  transition: ease-in-out 0.4s;
+}
+
+#hobbies .section_link:hover {
+  border-color: var(--title_hover);
+  color: var(--title_hover);
+}

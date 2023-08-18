@@ -1,378 +1,599 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bruno Garcia - Advogado</title>
-
-    <!-- Bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Bruno Garcia - Digital Resume</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
       crossorigin="anonymous"
     ></script>
-
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
   </head>
-  <body>
-    <div class="container">
-      <section id="wrapperHero" class="sectionPage">
-        <img
-          id="profilePic"
-          class="img-fluid"
-          src="./assets/img/Profile Photo.png"
-          alt="Profile Photo"
-        />
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+      id="sideNav"
+    >
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Bruno Garcia</span>
+        <span class="d-none d-lg-block"
+          ><img
+            class="img-fluid img-profile rounded-circle mx-auto mb-2"
+            src="assets/img/profilePhoto.jpg"
+            alt="..."
+        /></span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive"
+        aria-controls="navbarResponsive"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div>
-          <h1 id="userName">Bruno Garcia</h1>
-          <p id="bio">Advogado</p>
-          <p id="email">
-            <img src="./assets/img/arrow.png" width="30" height="30" />
-            bruno.garcia@garciaenovaes.adv.br
-          </p>
-        </div>
-      </section>
-
-      <section class="sectionPage">
-        <div id="socialLinks">
-          <a
-            href="https://www.linkedin.com/in/advogadobrunogarcia/"
-            target="_blank"
-            >Linkedin</a
-          >
-          <a href="https://github.com/brunogarcia84" target="_blank">Github</a>
-          <a href="./assets/img/Advogado_Bruno_Garcia.pdf" target="_blank"
-            >Download Curriculum</a
-          >
-        </div>
-      </section>
-
-      <section class="sectionPage">
-        <h2>Qualificações e Habilidades</h2>
-
-        <ul id="qualifications">
-          <li>
-            <img src="./assets/img/check.png" width="30" height="30" />
-            Advogado com mais de 22 anos de experiência no mercado jurídico.
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Intro</a>
           </li>
-          <li>
-            <img src="./assets/img/check.png" width="30" height="30" />Vasta
-            experiência em cobranças judiciais e extrajudiciais
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience"
+              >Experiência</a
+            >
           </li>
-          <li>
-            <img src="./assets/img/check.png" width="30" height="30" />
-            Especialista em Direito Processual Civil
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Educação</a>
           </li>
-          <li>
-            <img src="./assets/img/check.png" width="30" height="30" />
-            Fluente na língua inglesa - Experiência de mais de 12 anos com
-            aulas.
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests"
+              >Interesses</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Conquistas</a>
           </li>
         </ul>
-      </section>
+      </div>
+    </nav>
 
-      <section class="sectionPage">
-        <h2>Especialidades</h2>
-        <div id="wrapperTechstackItems">
-          <div class="cardTechstack">
-            <span>Direito Processual Civil</span>
+    <!-- Page Content-->
+    <div class="container-fluid p-0">
+      <!-- About-->
+      <section class="resume-section" id="about">
+        <div class="resume-section-content">
+          <h1 class="mb-0">
+            Bruno
+            <span class="text-primary">Garcia</span>
+          </h1>
+          <div class="subheading mb-5">
+            Av. Pedro Lessa, n. 1.111, Cj. 74 · Santos/SP · (13) 99658-6463 ·
+            <a href="mailto:bruno.garcia@garciaenovaes.adv.br"
+              >bruno.garcia@garciaenovaes.adv.br</a
+            >
           </div>
 
-          <div class="cardTechstack">
-            <span>Direito do Consumidor</span>
-          </div>
+          <section class="sectionPage">
+            <div id="socialLinks">
+              <a
+                href="https://www.linkedin.com/in/advogadobrunogarcia/"
+                class="links"
+                target="_blank"
+                >Linkedin</a
+              >
+              <a
+                href="https://github.com/brunogarcia84"
+                class="links"
+                target="_blank"
+                >Github</a
+              >
+              <a
+                href="./assets/img/Advogado_Bruno_Garcia.pdf"
+                class="links"
+                target="_blank"
+                >Download Curriculum</a
+              >
+            </div>
+          </section>
 
-          <div class="cardTechstack">
-            <span>Direito Contratual</span>
-          </div>
-
-          <div class="cardTechstack">
-            <span>Direito Criminal</span>
-          </div>
-        </div>
-      </section>
-
-      <section id="workHistory" class="sectionPage">
-        <h2>Histórico de Carreira</h2>
-        <div class="lineBreak"></div>
-
-        <div class="cardWorkHistory">
-          <strong>🚧 Garcia e Novaes Advocacia e Assessoria</strong>
-          <p>07/2023 - Current</p>
-          <ul>
-            <li>Advogado atuante em diversas áreas</li>
-            <li>
-              Processos judiciais nas áreas cível, criminal, trabalhista e
-              cobranças
-            </li>
-            <li>Audiências em todo o território nacional</li>
-            <li>Consultorias em diversas áreas, especialmente cível</li>
-          </ul>
-        </div>
-
-        <div class="cardWorkHistory">
-          <strong
-            >🚧 Professor de Inglês | GKB Núcleo de Formação
-            Profissional</strong
-          >
-          <p>07/2022 - 02/2023</p>
-          <ul>
-            <li>Professor de Inglês</li>
-            <li>Atividades Recreacionais</li>
-            <li>Jogos Online e Presenciais</li>
-          </ul>
-        </div>
-
-        <div class="cardWorkHistory">
-          <strong>🚧 Tradutor Freelancer | Integra Games Inc.</strong>
-          <p>10/2020 - 02/2023</p>
-          <ul>
-            <li>Tradutor Russo/Português</li>
-          </ul>
-        </div>
-
-        <div class="cardWorkHistory">
-          <strong
-            >🚧 Proprietário e Professor de Inglês | Sargoi Concept
-            Office</strong
-          >
-          <p>09/2020 - 02/2023</p>
-          <ul>
-            <li>Professor de Inglês</li>
-            <li>Atividades Recreacionais</li>
-            <li>Jogos Online e Presenciais</li>
-            <li>Atividades de Coordenação e Administração da Escola</li>
-          </ul>
-        </div>
-
-        <div class="cardWorkHistory">
-          <strong>🚧 Professor online de Inglês | Itutor Group Inc</strong>
-          <p>07/2018 - 07/2019</p>
-          <ul>
-            <li>Professor de Inglês</li>
-            <li>Atividades Recreacionais</li>
-            <li>Jogos Online</li>
-          </ul>
-        </div>
-
-        <div class="cardWorkHistory">
-          <strong
-            >🚧 Pausa de carreira | Aperfeiçoamento da Língua Inglesa</strong
-          >
-          <p>03/2018 - 07/2018</p>
-          <ul>
-            <li>
-              Pausa na minha carreira para aperfeiçoamento do idioma Inglês em
-              Dublin, na Irlanda
-            </li>
-            <li>Obtenção de Certificado Internacional - C1</li>
-            <li>
-              Obtenção de proficiência na língua inglesa - T.I.E. Certification
-            </li>
-          </ul>
-        </div>
-
-        <div class="cardWorkHistory">
-          <strong
-            >🚧 Advogado | Julio Cesar Garcia Sociedade de Advogados</strong
-          >
-          <p>03/2017 - 12/2017</p>
-          <ul>
-            <li>Advogado especialista em cobranças bancárias</li>
-            <li>Processos para companhias brasileiras e internacionais</li>
-            <li>Audiências</li>
-            <li>Rotinas Burocráticas Diárias</li>
-            <li>Planilhas e Relatórios</li>
-            <li>Reuniões com clientes internos e externos</li>
-          </ul>
-        </div>
-
-        <div class="cardWorkHistory">
-          <strong>🚧 Advogado | Brito e Dias Advogados Associados</strong>
-          <p>05/2015 - 05/2016</p>
-          <ul>
-            <li>Cobranças Judiciais</li>
-            <li>Mediações</li>
-            <li>Audiências</li>
-            <li>Contratos e Distratos</li>
-            <li>Todas as esferas do judiciário</li>
-            <li>Mais de 10 Estados da Federação</li>
-          </ul>
-        </div>
-
-        <div class="cardWorkHistory">
-          <strong
-            >🚧 Pausa de carreira | Dedicação exclusiva ao Exame de
-            Ordem</strong
-          >
-          <p>09/2014 - 05/2015</p>
-          <ul>
-            <li>
-              Fiz uma pausa em minha carreira para me dedicar exclusivamente ao
-              Exame da Ordem dos Advogados do Brasil
-            </li>
-            <li>Aprovação em primeira fase com 68 de 80 pontos</li>
-            <li>Aprovação em segunda fase - Direito Tributário</li>
-          </ul>
-        </div>
-
-        <div class="cardWorkHistory">
-          <strong>🚧 Assistente Societário | Dow Química S.A.</strong>
-          <p>12/2013 - 09/2014</p>
-          <ul>
-            <li>Reorganização do setor societário dos grupos da empresa</li>
-            <li>Confecção de procurações para todos os setores da empresa</li>
-            <li>Contatos com diversos setores em diferentes países</li>
-          </ul>
-        </div>
-
-        <div class="cardWorkHistory">
-          <strong
-            >🚧 Estagiário | Dantas, Lee, Brock e Camargo Advogados
-            Associados</strong
-          >
-          <p>05/2012 - 12/2013</p>
-          <ul>
-            <li>Estagiário do setor tributário do escritório</li>
-            <li>
-              Responsável pelo acompanhamento de grandes casos para o sócio
-            </li>
-            <li>
-              Responsável pela confecção de peças judiciais em todas as esferas
-              do judiciário
-            </li>
-            <li>Atuação e supervisão direta do diretor jurídico</li>
-            <li>Justiças Estadual e Federal</li>
-            <li>Mais de 10 Estados da Federação</li>
-          </ul>
-        </div>
-
-        <div class="cardWorkHistory">
-          <strong>🚧 Trainee V | Bookeepers Consultoria Ltda</strong>
-          <p>12/2011 - 05/2012</p>
-          <ul>
-            <li>Consultor trainee em direito tributário</li>
-            <li>
-              Análise de operações visando implementação de redução de pagamento
-              de diversos tributos
-            </li>
-            <li>
-              Viagens e reuniões com diversos clientes, de porte pequeno a
-              empresas internacionais
-            </li>
-            <li>Atuação e supervisão direta do sócio da empresa</li>
-          </ul>
-        </div>
-
-        <div class="cardWorkHistory">
-          <strong
-            >🚧 Assistente Administrativo | Panamericano Arrendamento Mercantil
-            Ltda</strong
-          >
-          <p>12/2010 - 12/2011</p>
-          <ul>
-            <li>
-              Assistente responsável pela confecção de contratos, distratos,
-              aditivos de locação das agências físicas do Banco
-            </li>
-            <li>Trabalho assistido diretamente pela Gerente Jurídica</li>
-            <li>
-              Após a venda para o grupo BTG Pactual, fiquei responsável pela
-              análise de contratos de telefonia
-            </li>
-            <li>
-              Após o BTG assumir as operações, a atuação passou a ser direta com
-              a diretoria
-            </li>
-          </ul>
-        </div>
-
-        <div class="cardWorkHistory">
-          <strong
-            >🚧 Estagiário | Panamericano Prestadora de Serviços Ltda</strong
-          >
-          <p>03/2010 - 12/2010</p>
-          <ul>
-            <li>
-              Estagiário do programa de inclusão do Banco Panamericano S.A.
-            </li>
-            <li>Selecionado entre mais de 200 candidatos</li>
-            <li>
-              Destaque nos setores onde atuou, especialmente no setor jurídico
-              corporativo
-            </li>
-            <li>Primeiro entre 40 estagiários a ser efetivado pelo Banco.</li>
-          </ul>
-        </div>
-
-        <div class="cardWorkHistory">
-          <strong
-            >🚧 Auxiliar de Escritório | Julio Cesar Garcia Sociedade de
-            Advogados</strong
-          >
-          <p>10/2001 - 03/2010</p>
-          <ul>
-            <li>Início de carreira como auxiliar de escritório</li>
-            <li>Pagamentos externos em bancos</li>
-            <li>
-              Protocolo de petições em diversos fóruns do Estado de São Paulo
-            </li>
-            <li>Relatórios anuais para clientes do escritório</li>
-            <li>
-              Desenvolvimento profissional com diversos aprendizados em diversas
-              áreas do escritório
-            </li>
-          </ul>
+          <!-- <div class="social-icons">
+            <a class="social-icon" href="#!"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
+            <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
+            <a class="social-icon" href="#!"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </div> -->
         </div>
       </section>
+      <hr class="m-0" />
 
-      <section class="sectionPage">
-        <h2>Principais Projetos e Conquistas</h2>
+      <!-- Experience-->
+      <section class="resume-section" id="experience">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Experiência</h2>
 
-        <div class="cardProject">
-          <span>🏆 </span>Empresário na Ucrânia, quando iniciei uma pequena
-          franquia de escola de inglês
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div>
+              <strong>🚧 Garcia e Novaes Advocacia e Assessoria</strong>
+              <p>07/2023 - Current</p>
+              <ul>
+                <li>Advogado atuante em diversas áreas</li>
+                <li>
+                  Processos judiciais nas áreas cível, criminal, trabalhista e
+                  cobranças
+                </li>
+                <li>Audiências em todo o território nacional</li>
+                <li>Consultorias em diversas áreas, especialmente cível</li>
+              </ul>
+            </div>
+
+            <div>
+              <strong
+                >🚧 Professor de Inglês | GKB Núcleo de Formação
+                Profissional</strong
+              >
+              <p>07/2022 - 02/2023</p>
+              <ul>
+                <li>Professor de Inglês</li>
+                <li>Atividades Recreacionais</li>
+                <li>Jogos Online e Presenciais</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div>
+              <strong>🚧 Tradutor Freelancer | Integra Games Inc.</strong>
+              <p>10/2020 - 02/2023</p>
+              <ul>
+                <li>Tradutor Russo/Português</li>
+              </ul>
+            </div>
+
+            <div>
+              <strong
+                >🚧 Proprietário e Professor de Inglês | Sargoi Concept
+                Office</strong
+              >
+              <p>09/2020 - 02/2023</p>
+              <ul>
+                <li>Professor de Inglês</li>
+                <li>Atividades Recreacionais</li>
+                <li>Jogos Online e Presenciais</li>
+                <li>Atividades de Coordenação e Administração da Escola</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div>
+              <strong>🚧 Professor online de Inglês | Itutor Group Inc</strong>
+              <p>07/2018 - 07/2019</p>
+              <ul>
+                <li>Professor de Inglês</li>
+                <li>Atividades Recreacionais</li>
+                <li>Jogos Online</li>
+              </ul>
+            </div>
+
+            <div>
+              <strong
+                >🚧 Pausa de carreira | Aperfeiçoamento da Língua
+                Inglesa</strong
+              >
+              <p>03/2018 - 07/2018</p>
+              <ul>
+                <li>
+                  Pausa na minha carreira para aperfeiçoamento do idioma Inglês
+                  em Dublin, na Irlanda
+                </li>
+                <li>Obtenção de Certificado Internacional - C1</li>
+                <li>
+                  Obtenção de proficiência na língua inglesa - T.I.E.
+                  Certification
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div>
+              <strong
+                >🚧 Advogado | Julio Cesar Garcia Sociedade de Advogados</strong
+              >
+              <p>03/2017 - 12/2017</p>
+              <ul>
+                <li>Advogado especialista em cobranças bancárias</li>
+                <li>Processos para companhias brasileiras e internacionais</li>
+                <li>Audiências</li>
+                <li>Rotinas Burocráticas Diárias</li>
+                <li>Planilhas e Relatórios</li>
+                <li>Reuniões com clientes internos e externos</li>
+              </ul>
+            </div>
+
+            <div>
+              <strong>🚧 Advogado | Brito e Dias Advogados Associados</strong>
+              <p>05/2015 - 05/2016</p>
+              <ul>
+                <li>Cobranças Judiciais</li>
+                <li>Mediações</li>
+                <li>Audiências</li>
+                <li>Contratos e Distratos</li>
+                <li>Todas as esferas do judiciário</li>
+                <li>Mais de 10 Estados da Federação</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div>
+              <strong
+                >🚧 Pausa de carreira | Dedicação exclusiva ao Exame de
+                Ordem</strong
+              >
+              <p>09/2014 - 05/2015</p>
+              <ul>
+                <li>
+                  Fiz uma pausa em minha carreira para me dedicar exclusivamente
+                  ao Exame da Ordem dos Advogados do Brasil
+                </li>
+                <li>Aprovação em primeira fase com 68 de 80 pontos</li>
+                <li>Aprovação em segunda fase - Direito Tributário</li>
+              </ul>
+            </div>
+
+            <div>
+              <strong>🚧 Assistente Societário | Dow Química S.A.</strong>
+              <p>12/2013 - 09/2014</p>
+              <ul>
+                <li>Reorganização do setor societário dos grupos da empresa</li>
+                <li>
+                  Confecção de procurações para todos os setores da empresa
+                </li>
+                <li>Contatos com diversos setores em diferentes países</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div>
+              <strong
+                >🚧 Estagiário | Dantas, Lee, Brock e Camargo Advogados
+                Associados</strong
+              >
+              <p>05/2012 - 12/2013</p>
+              <ul>
+                <li>Estagiário do setor tributário do escritório</li>
+                <li>
+                  Responsável pelo acompanhamento de grandes casos para o sócio
+                </li>
+                <li>
+                  Responsável pela confecção de peças judiciais em todas as
+                  esferas do judiciário
+                </li>
+                <li>Atuação e supervisão direta do diretor jurídico</li>
+                <li>Justiças Estadual e Federal</li>
+                <li>Mais de 10 Estados da Federação</li>
+              </ul>
+            </div>
+
+            <div>
+              <strong>🚧 Trainee V | Bookeepers Consultoria Ltda</strong>
+              <p>12/2011 - 05/2012</p>
+              <ul>
+                <li>Consultor trainee em direito tributário</li>
+                <li>
+                  Análise de operações visando implementação de redução de
+                  pagamento de diversos tributos
+                </li>
+                <li>
+                  Viagens e reuniões com diversos clientes, de porte pequeno a
+                  empresas internacionais
+                </li>
+                <li>Atuação e supervisão direta do sócio da empresa</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div>
+              <strong
+                >🚧 Assistente Administrativo | Panamericano Arrendamento
+                Mercantil Ltda</strong
+              >
+              <p>12/2010 - 12/2011</p>
+              <ul>
+                <li>
+                  Assistente responsável pela confecção de contratos, distratos,
+                  aditivos de locação das agências físicas do Banco
+                </li>
+                <li>Trabalho assistido diretamente pela Gerente Jurídica</li>
+                <li>
+                  Após a venda para o grupo BTG Pactual, fiquei responsável pela
+                  análise de contratos de telefonia
+                </li>
+                <li>
+                  Após o BTG assumir as operações, a atuação passou a ser direta
+                  com a diretoria
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <strong
+                >🚧 Estagiário | Panamericano Prestadora de Serviços
+                Ltda</strong
+              >
+              <p>03/2010 - 12/2010</p>
+              <ul>
+                <li>
+                  Estagiário do programa de inclusão do Banco Panamericano S.A.
+                </li>
+                <li>Selecionado entre mais de 200 candidatos</li>
+                <li>
+                  Destaque nos setores onde atuou, especialmente no setor
+                  jurídico corporativo
+                </li>
+                <li>
+                  Primeiro entre 40 estagiários a ser efetivado pelo Banco.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div>
+              <strong
+                >🚧 Auxiliar de Escritório | Julio Cesar Garcia Sociedade de
+                Advogados</strong
+              >
+              <p>10/2001 - 03/2010</p>
+              <ul>
+                <li>Início de carreira como auxiliar de escritório</li>
+                <li>Pagamentos externos em bancos</li>
+                <li>
+                  Protocolo de petições em diversos fóruns do Estado de São
+                  Paulo
+                </li>
+                <li>Relatórios anuais para clientes do escritório</li>
+                <li>
+                  Desenvolvimento profissional com diversos aprendizados em
+                  diversas áreas do escritório
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </section>
+      <hr class="m-0" />
 
-        <div class="cardProject">
-          <span>🏆 </span>Mais de 12 anos de experiência como professor de
-          inglês, sempre em paralelo com a atuação no mercado jurídico
+      <!-- Education-->
+      <section class="resume-section" id="education">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Educação</h2>
+
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Certificação Cambridge TKT em 3 módulos</h3>
+              <div class="subheading mb-1">
+                Habilidades e Técnicas de Ensino
+              </div>
+              <div class="subheading mb-3">Kyiv - Ucrânia</div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">07/2021</span>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Certificação TEFL</h3>
+              <div class="subheading mb-1">
+                Habilidades e Técnicas de Ensino
+              </div>
+              <div class="subheading mb-3">Kyiv - Ucrânia</div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">08/2018</span>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Certificação T.I.E.</h3>
+              <div class="subheading mb-1">
+                Proficiência em Inglês - Nível C1
+              </div>
+              <div class="subheading mb-3">Dublin - Irlanda</div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">07/2018</span>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Universidade Anhembi Morumbi</h3>
+              <div class="subheading mb-1">Graduação em Direito</div>
+              <div class="subheading mb-3">São Paulo - Brasil</div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">12/2013</span>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">200h Inglês Avançado</h3>
+              <div class="subheading mb-1">
+                Centro Cultural Brasil-Estados Unidos (CCBEU)
+              </div>
+              <div class="subheading mb-3">Santos - Brasil</div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">04/2003</span>
+            </div>
+          </div>
         </div>
+      </section>
+      <hr class="m-0" />
 
-        <div class="cardProject">
-          <span>🏆 </span>Planejamento e Implementação de novos cursos para
-          escolas de inglês
+      <!-- Skills-->
+      <section class="resume-section" id="skills">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Habilidades</h2>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item">Direito Processual Civil</li>
+            <li class="list-inline-item">
+              <span class="skills">Direito do Consumidor</span>
+            </li>
+            <li class="list-inline-item">
+              <span class="skills">Direito Contratual</span>
+            </li>
+            <li class="list-inline-item">Direito Criminal</li>
+          </ul>
         </div>
+      </section>
+      <hr class="m-0" />
 
-        <div class="cardProject">
-          <span>🏆 </span>Implementação de nova estrutura corporativa em
-          companhia multinacional
+      <!-- Interests-->
+      <section class="resume-section" id="interests">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Interests</h2>
+          <p>
+            Como toda pessoa, precisamos descansar e desligar do trabalho em
+            alguns momentos. Para tanto, eu tenho alguns hobbies que gostaria de
+            compartilhar:
+          </p>
+          <ul>
+            <li>Piloto Amador de Aviões em Simuladores</li>
+            <li>Guitarrista de Rock and Roll</li>
+            <li>Estudioso da Ufologia e Futuro Pesquisador de Campo</li>
+            <li>Desenvolvedor Amador de Aplicativos para Internet</li>
+          </ul>
         </div>
+      </section>
+      <hr class="m-0" />
 
-        <div class="cardProject">
-          <span>🏆 </span>Acordos judiciais e extrajudiciais para devedores de
-          instituições financeiras, farmacêuticas e companhias de seguro
-        </div>
-
-        <div class="cardProject">
-          ><span>🏆 </span>Sempre tive o prazer de ser coordenado e dirigido por
-          sócios, diretores e grandes patentes nas empresas onde trabalhei
-        </div>
-
-        <div class="cardProject">
-          ><span>🏆 </span>Escolhido entre mais de 200 candidatos, e o primeiro
-          a ser efetivado em um programa de estágio de larga escala em uma
-          instituição financeira
+      <!-- Awards-->
+      <section class="resume-section" id="awards">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Principais Projetos e Conquistas</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <span class="fa-li"
+                ><i class="fas fa-trophy text-warning"></i
+              ></span>
+              Empresário na Ucrânia, quando iniciei uma pequena franquia de
+              escola de inglês
+            </li>
+            <li>
+              <span class="fa-li"
+                ><i class="fas fa-trophy text-warning"></i
+              ></span>
+              Mais de 12 anos de experiência como professor de inglês, sempre em
+              paralelo com a atuação no mercado jurídico
+            </li>
+            <li>
+              <span class="fa-li"
+                ><i class="fas fa-trophy text-warning"></i
+              ></span>
+              Planejamento e Implementação de novos cursos para escolas de
+              inglês
+            </li>
+            <li>
+              <span class="fa-li"
+                ><i class="fas fa-trophy text-warning"></i
+              ></span>
+              Implementação de nova estrutura corporativa em companhia
+              multinacional
+            </li>
+            <li>
+              <span class="fa-li"
+                ><i class="fas fa-trophy text-warning"></i
+              ></span>
+              Acordos judiciais e extrajudiciais para devedores de instituições
+              financeiras, farmacêuticas e companhias de seguro
+            </li>
+            <li>
+              <span class="fa-li"
+                ><i class="fas fa-trophy text-warning"></i
+              ></span>
+              Sempre tive o prazer de ser coordenado e dirigido por sócios,
+              diretores e grandes patentes nas empresas onde trabalhei
+            </li>
+            <li>
+              <span class="fa-li"
+                ><i class="fas fa-trophy text-warning"></i
+              ></span>
+              Escolhido entre mais de 200 candidatos, e o primeiro a ser
+              efetivado em um programa de estágio de larga escala em uma
+              instituição financeira
+            </li>
+          </ul>
         </div>
       </section>
     </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
   </body>
 </html>
